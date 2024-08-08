@@ -27,6 +27,11 @@ const WindowTracker = () => {
         window.removeEventListener('resize',watchWidth)
     }
 
+    // clenaup function  aese bhi likha skte hai ------------
+    return () => {
+            
+    }
+
   }, []);
 
   return (
